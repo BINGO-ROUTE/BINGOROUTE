@@ -12,3 +12,6 @@ venv/
 
 # 작업 폴더
 minwoo/
+
+# history 폴더
+.history 
