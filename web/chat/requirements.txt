@@ -12,8 +12,9 @@ langsmith==0.4.14             # LangChain 디버깅/모니터링 툴
 # === 모델 연결 (필요에 따라 선택적으로 사용) ===
 langchain-groq==0.3.6         # Groq 모델 연결
 langchain-openai==0.3.8       # OpenAI 모델 연결
+langchain-ollama>=0.1.1       # Ollama용 LangChain 모듈 (최신)
 # 로컬 LLM (Ollama)
-ollama==0.1.8                 # Ollama Python 클라이언트
+ollama>=0.3.0,<1.0.0          #  Ollama 클라이언트 (필수, 호환됨)
 
 # === 데이터베이스 관련 ===
 sqlalchemy==2.0.0             # SQLDatabase용 핵심 ORM
