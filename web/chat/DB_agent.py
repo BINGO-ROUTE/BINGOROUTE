@@ -74,5 +74,5 @@ agent = AgentExecutor.from_agent_and_tools(
 #################################
 # 프롬프트 기반 질의 실행
 #################################
-response = agent.invoke({"input": "평점이 4.5점인 곳 알려줘"})
+response = agent.invoke({"input": "장소 3곳 알려줘"})
 print("\n 답변:", response["output"])
